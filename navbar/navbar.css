@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    margin: 0px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-size: 3vw;
+    background-color:#EEB118 ;
+}
+.navbody{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbody a:hover{
+    color: red;
+    transition: color 1s;
+}

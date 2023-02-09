@@ -4,31 +4,70 @@ body {
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    font-size: 1vw;
+    margin: 0px;
+}
+embed{
+  width: 100%;
+  height: fit-content;
 }
 .block-1{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     display: block;
     text-align: center;
+    font-size: 2vw;
+}
+#photo-credit{
+  font-size: 1vw;
+}
+.block-2{
+    /*border: 2px solid black;*/
+    display: block;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 1.5vw;
+    /*border-width: 4px;
+    border-style:ridge;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;*/
 }
 .fade-in-short{
     animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
+}
+.img-attr2{
+  width: 80px;
+  height: auto;
+  border-radius: 30px;
+  border-width: 4px;
+  border-style:solid;
+  border-color: orange;
+}
+.img-selfie{
+  padding-bottom: 20px;
+  padding-top: 8px;
 }
 .fade-in-long{
     animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 15s;
 }
 .img-attr1{
-    width: 99%;
+    width: 100%;
     height: auto;
-
 }
 #centered-txt{
   position: absolute;
   top: 50vw;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#photo-credit{
+  height: min-content;
+}
+.block-2{
+  background-color: #2C2A25;
+  color: bisque;
 }
 @keyframes fadeIn {
     0% {
