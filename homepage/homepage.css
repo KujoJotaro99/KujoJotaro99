@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     font-display: swap;
     margin: 0px;
+    background-color: #2C2A25;
 }
 embed{
   width: 100%;
@@ -15,9 +16,17 @@ embed{
     display: block;
     text-align: center;
     font-size: 2vw;
+    justify-content: center;
 }
 #photo-credit{
   font-size: 1vw;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 10s;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .block-2{
     /*border: 2px solid black;*/
@@ -32,25 +41,71 @@ embed{
     border-style:ridge;
     border-image: linear-gradient(to right, darkblue, darkorchid) 1;*/
 }
+.block-3{
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 1.5vw;
+  background-color: #2C2A25;
+  color: bisque;
+}
+#skills{
+  display: block;
+  margin: auto;
+}
+#skillblock1{
+  display: flex;
+  height: fit-content;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+#skillblock2{
+  display: flex;
+  height: fit-content;
+  width: 350px;
+  margin: auto;
+  padding: 30px;
+}
+#my-skillset-block{
+  font-size: 20px;
+}
+#circle{
+  margin: auto;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border: solid 2px black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#circle:hover{
+  border: solid 2px green;
+  transition: border 1s;
+}
 .fade-in-short{
-    animation: fadeIn ease 5s;
+  animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
 }
 .img-attr2{
   width: 80px;
   height: auto;
-  border-radius: 30px;
+  border-radius: 40%;
   border-width: 4px;
   border-style:solid;
   border-color: orange;
+  width: 15%;
 }
 .img-selfie{
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 8px;
+  width: 100%;
 }
 .fade-in-long{
     animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 8s;
 }
 .img-attr1{
     width: 100%;
@@ -58,7 +113,7 @@ embed{
 }
 #centered-txt{
   position: absolute;
-  top: 50vw;
+  top: 30vw;
   left: 50%;
   transform: translate(-50%, -50%);
 }

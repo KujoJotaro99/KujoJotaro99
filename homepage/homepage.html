@@ -1,7 +1,18 @@
 <link rel="stylesheet" href="homepage.css">
+<script type="text/javascript" src="../homepage/homepage.js"></script>
+<link rel="stylesheet" href="../navbar/navbar.css"></link>
+<script type="text/javascript" src="../navbar/navbar.js"></script>
 <html>
+<body1 class="nav-body">
+    <div class="navbody">
+        <a onclick="routeHome()">Home</a>
+        <a onclick="routeResume()">Resume</a>
+        <a onclick="routeContact()">Contact</a>
+        <a onclick="routeProjects()">Projects</a>
+        <a onclick="routeHobbies()">Hobbies</a>
+    </div>
+</body1>
 <body>
-    <embed type="text/html" src="../navbar/navbar.html">
     <div class="block-1">
         <img class="img-attr1" src="../resources/fineas_anton-home.jpeg"></img>
         <div id="centered-txt">
@@ -19,6 +30,41 @@
             <p2>My name is Subrahmanian Hari -I go by Mani for short- and I am a freshman undergraduate at the University of California Santa Cruz. I am currently working towards earning a B.S. in Computer Engineering. I am seeking internship/work opportunities for the upcoming summer/fall season. My current skillset includes web and app development, embedded systems, schematic/PCB design using CAD, and AI/ML.</p2>
         </div>
     </div>
+    <div class="block-3">
+        <h2>Skillset</h2>
+        <div id="my-skillset-block">
+            <div id="skillblock1">
+                <div id="circle"></div>
+                <p3 id="skills">Python</p3>
+            </div>
+            <div id="skillblock2">
+                <div id="circle"></div>
+                <p3 id="skills">Java/Javascript/Typescript</p3>
+            </div>
+            <div id="skillblock1">
+                <div id="circle"></div>
+                <p3 id="skills">C/C++</p3>
+            </div>
+            <div id="skillblock2">
+                <div id="circle"></div>
+                <p3 id="skills">Autodesk Eagle/Altium</p3>
+            </div>
+            <div id="skillblock1">
+                <div id="circle"></div>
+                <p3 id="skills">Github</p3>
+            </div>
+        </div>
+    </div>
+<link rel="stylesheet" href="../footer/footer.css"></link>
+<script type="text/javascript" src="../footer/footer.js"></script>
+<body2 class="footer-body">
+    <div class="footer">
+        <a onclick="routeHome()">© 2023 Mani Hari</a>
+        <a id="nonstatic" onclick="routeResume()">Linkedin</a>
+        <a id="nonstatic" onclick="routeContact()">Github</a>
+        <a id="nonstatic" onclick="routeProjects()">Slack</a>
+    </div>
+</body2>
 </body>
 
 </html>

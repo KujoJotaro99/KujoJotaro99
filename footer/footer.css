@@ -1,35 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-.nav-body{
+.footer-body{
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 300;
-    font-display: swap;
-    width: 90%;
-    height: 23px;
-    font-size: 30x;
-    background-color:#EEB118;
-    overflow: hidden;
-    position: fixed;
-    top: 10px;
-    z-index: 1;
-    box-shadow: 0px 5px 5px grey;
-    border-radius: 40px;
-    margin-left:5%;
-    margin-right: 5%;
-}
-.navbody{
+    font-size: 10px;
     display: flex;
-    width: 100%;
     justify-content: center;
-    text-align: center;
+    background-color:#EEB118;
+    height: 50px;
 }
-a{
+p{
     padding-left: 3%;
     padding-right: 3%;
+    color: black;
     justify-content: center;
     text-align: center;
 }
-.navbody a:hover{
+#nonstatic:hover{
     color: red;
     transition: color 1s;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    margin: auto;
 }
