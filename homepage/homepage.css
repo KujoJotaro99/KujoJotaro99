@@ -62,11 +62,12 @@ embed{
   margin: auto;
   padding: 10px;
 }
+
 #skillblock2{
   display: flex;
   height: fit-content;
   width: 350px;
-  margin: auto;
+  margin:auto;
   padding: 30px;
 }
 #my-skillset-block{

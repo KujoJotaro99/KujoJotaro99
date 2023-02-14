@@ -9,13 +9,15 @@
     background-color:#EEB118;
     height: 50px;
 }
-p{
-    padding-left: 3%;
-    padding-right: 3%;
+a{
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
     color: black;
     justify-content: center;
     text-align: center;
 }
+
 #nonstatic:hover{
     color: red;
     transition: color 1s;
