@@ -36,7 +36,7 @@ embed{
     padding-right: 60px;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 1.5vw;
+    font-size: 3vw;
     /*border-width: 4px;
     border-style:ridge;
     border-image: linear-gradient(to right, darkblue, darkorchid) 1;*/
@@ -53,43 +53,111 @@ embed{
 }
 #skills{
   display: block;
-  margin: auto;
+  margin-left: 30px;
 }
 #skillblock1{
   display: flex;
   height: fit-content;
-  width: 200px;
+  width: 100%;
   margin: auto;
   padding: 10px;
+  margin-left: 0px;
 }
 
 #skillblock2{
   display: flex;
   height: fit-content;
-  width: 350px;
+  width: 100%;
   margin:auto;
-  padding: 30px;
+  padding: 10px;
+  margin-left: 0px;
 }
 #my-skillset-block{
   font-size: 20px;
 }
-#circle{
-  margin: auto;
+#circle1{
   height: 20px;
   width: 20px;
   background-color: #bbb;
-  border: solid 2px black;
+  border: solid 3.5px black;
   border-radius: 50%;
   display: inline-block;
 }
-#circle:hover{
-  border: solid 2px green;
-  transition: border 1s;
+#circle1:hover{
+  border: solid 3.5px green;
+  transition: border 0.5s;
 }
+
+#circle2{
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border: solid 3.5px black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#circle2:hover{
+  border: solid 3.5px green;
+  transition: border 0.5s;
+}
+
+#circle3{
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border: solid 3.5px black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#circle3:hover{
+  border: solid 3.5px orange;
+  transition: border 0.5s;
+}
+
+#circle4{
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border: solid 3.5px black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#circle4:hover{
+  border: solid 3.5px orange;
+  transition: border 0.5s;
+}
+
+#circle5{
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border: solid 3.5px black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#circle5:hover{
+  border: solid 3.5px yellow;
+  transition: border 0.5s;
+}
+
+#circle6{
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border: solid 3.5px black;
+  border-radius: 50%;
+  display: inline-block;
+}
+#circle6:hover{
+  border: solid 3.5px green;
+  transition: border 0.5s;
+}
+
 .fade-in-short{
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
 }
+
 .img-attr2{
   width: 80px;
   height: auto;

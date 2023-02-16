@@ -5,8 +5,7 @@
     font-weight: 300;
     font-display: swap;
     width: 90%;
-    height: 23px;
-    font-size: 30x;
+    height: 50px;
     background-color:#EEB118;
     overflow: hidden;
     position: fixed;
@@ -16,10 +15,13 @@
     border-radius: 40px;
     margin-left:5%;
     margin-right: 5%;
+    padding: 0px;
 }
 .navbody{
+    font-size: large;
     display: flex;
     width: 100%;
+    margin-top: 12.5px;
     justify-content: center;
     text-align: center;
 }
