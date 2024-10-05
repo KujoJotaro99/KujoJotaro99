@@ -1,57 +1,113 @@
-<link rel="stylesheet" href="../navbar/navbar.css"></link>
-<link rel="stylesheet" href="../resume/resume.css"></link>
+<link rel="stylesheet" href="../navbar/navbar.css">
+<link rel="stylesheet" href="../resume/resume.css">
 <script type="text/javascript" src="../navbar/navbar.js"></script>
 <html>
 <body1 class="nav-body">
     <div class="navbody">
         <a onclick="routeHome()">Home</a>
         <a onclick="routeResume()">Resume</a>
-        <a onclick="routeContact()">Contact</a>
         <a onclick="routeProjects()">Projects</a>
-        <a onclick="routeHobbies()">Hobbies</a>
     </div>
 </body1>
 <body>
     <div id="intro">
         <h1>Resume</h1>
         <h1>Subrahmanian Hari</h1>
-        <p>Computer Engineer|Santa Cruz|University of California Santa Cruz</p>
-        <p>Developer 3+ years of experience in software design and solutions, proficient in many popular programming languages/code frameworks/toolkits, great in collaborative environments and also self productive, passionate about high and low level software applications in industry, prioritizes meaningful and innovative workspaces for personal and altruistic growth</p>
+        <p>Computer Engineer | Santa Cruz | University of California Santa Cruz</p>
+        <p>Developer with 3+ years of experience in software design and solutions, proficient in many popular programming languages/code frameworks/toolkits. Great in collaborative environments and also self-productive, passionate about high and low-level software applications in the industry, prioritizes meaningful and innovative workspaces for personal and altruistic growth.</p>
     </div>
     <div id="social">
         <h1>Social Profiles</h1>
-        <a id="img" href="https://www.linkedin.com/in/subrahmanian-hari-270951249/"><img src='../resources/linkedin.png'></img></a>
-        <a id="img" href="https://github.com/KujoJotaro99"><img src='../resources/github.png'></img></a>
-    </div>
-    <div id="attributes">
-        <h1>Best Attributes</h1>
-        <p>★★★★★ Fast Learner</p>
-        <p>★★★★★ Adaptability</p>
-        <p>★★★★★ Collaboration</p>
-        <p>★★★★★ Community Involvement</p>
-        <p>★★★★★ Leadership Skills</p>
+        <a id="img" href="https://www.linkedin.com/in/subrahmanian-hari-270951249/"><img src='../resources/linkedin.png' alt="LinkedIn"></a>
+        <a id="img" href="https://github.com/KujoJotaro99"><img src='../resources/github.png' alt="GitHub"></a>
     </div>
     <div id="skills">
         <h1>Technical Skills</h1>
-        <p>★★★★☆ JavaScript/Typescript</p>
-        <p>★★★★☆ Java</p>
-        <p>★★★★☆ Python</p>
-        <p>★★☆☆☆ C/C++</p>
-        <p>★★★★★ UI/UX Design</p>
-        <p>★★☆☆☆ CAD Design</p>
-        <p>★★☆☆☆ CAD Design</p>
-        <p>★★★★★ HTML5/CSS</p>
+        <p>JavaScript/Typescript</p>
+        <p>Python</p>
+        <p>C</p>
+        <p>Verilog/SystemVerilog</p>
+        <p>Matlab</p>
     </div>
     
+    <div id="education">
+        <h1>Education</h1>
+        <p><strong>University of California Santa Cruz</strong>, CA <em>2022-2026</em></p>
+        <p>B.S. Computer Engineering</p>
+        <p>GPA: 3.70</p>
+    </div>
+
+    <div id="interest">
+        <h1>Interests</h1>
+        <p>I am looking for internship positions that will provide experience in front-end stages of the SoC-ASIC design flow.</p>
+    </div>
+
+    <div id="skills">
+        <h1>Skills</h1>
+        <p><strong>Relevant Coursework:</strong> Advanced Python, Computer Architecture I, Logic Design I, Analog Circuit Theory I, Electromagnetism in Physics, ASIC System Design (in progress)</p>
+        <p><strong>Programming:</strong> SystemVerilog/Verilog, Python, C, Java/JS/TS, HTML/CSS, (RISC-V) Assembly, MATLAB</p>
+        <p><strong>Software:</strong> Github, Eagle CAD, LaTeX, Arduino, Onshape, KiCad, Vivado, Synopsys VCS, (Ubuntu) Linux</p>
+        <p><strong>Practical:</strong> Surface Mount/Through-hole Soldering, Oscilloscope, Waveform Generator</p>
+    </div>
+
+    <div id="academic_positions">
+        <h1>Academic Positions</h1>
+        <h2>Slugbotics</h2>
+        <p><em>Control Systems Lead</em> (2022-2024)</p>
+        <ul>
+            <li>Developed Python handler script to collect and transfer joystick vector packets over ethernet.</li>
+            <li>Implemented error checking algorithm to safely transfer electronic speed controller instructions over 40 foot wire.</li>
+            <li>Used hash-map to effectively reduce size of packets over wire in half.</li>
+            <li>Prototyped physical thruster guards with larger mesh sizes using Onshape CAD.</li>
+        </ul>
+        
+        <h2>SiliconValley4u</h2>
+        <p><em>SWE Intern</em> (2020-2021)</p>
+        <ul>
+            <li>Designed and implemented responsive page designs auto-scaled for multiple aspect ratios using Figma and HTML5.</li>
+            <li>Implemented file uploading and parsing for on-site resume submission in (Angular) Typescript.</li>
+            <li>Established user claims hierarchy and user authentication with token validation in Firebase Auth API.</li>
+        </ul>
+    </div>
+
+    <div id="projects">
+        <h1>Projects</h1>
+        <h2>Asynchronous FIFO (Verilog)</h2>
+        <p><em>2024</em></p>
+        <ul>
+            <li>Designed a N-deep parameterized FIFO buffer capable of handling asynchronous access operations between different clock domains.</li>
+            <li>Utilized synchronizer cells to preserve order of read/writes across domains.</li>
+            <li>Pointers passed as gray code to minimize meta-stability risk between flop transitions.</li>
+            <li>Developed comprehensive testbench to ensure correct functionality and performance under various conditions.</li>
+        </ul>
+        
+        <h2>32b ALU (Verilog/RISCV32I)</h2>
+        <p><em>2024</em></p>
+        <ul>
+            <li>Designed and implemented a 32-bit signed ALU supporting arithmetic (addition, subtraction), logical (AND, OR, XOR), and shift operations.</li>
+            <li>Integrated overflow detection and two's complement representation to handle signed integer operations and edge cases like overflow/underflow.</li>
+            <li>Optimized the ALU using a carry-lookahead adder for faster addition operations by reducing critical path delay.</li>
+            <li>Verified functionality through directed test-benches and random input simulation.</li>
+        </ul>
+
+        <h2>UCSC Catalog Web Scraper (Python)</h2>
+        <p><em>2023</em></p>
+        <ul>
+            <li>Designed a web scraper using Pandas and BeautifulSoup to format UCSC catalog.</li>
+            <li>Used key and value pair for sorting and dumping into data frame.</li>
+            <li>Implemented in Discord platform for scalability and ease of use.</li>
+        </ul>
+    </div>
+
 </body>
-<link rel="stylesheet" href="../footer/footer.css"></link>
-    <script type="text/javascript" src="../footer/footer.js"></script>
-    <body2 class="footer-body">
-        <div class="footer">
-            <a>© 2023 Mani Hari</a>
-            <a id="nonstatic" href='https://www.linkedin.com/in/subrahmanian-hari-270951249/'>Linkedin</a>
-            <a id="nonstatic" href='https://github.com/KujoJotaro99'>Github</a>
-            <a id="nonstatic" href='/'>Contact</a>
-        </div>
-    </body2>
+<link rel="stylesheet" href="../footer/footer.css">
+<script type="text/javascript" src="../footer/footer.js"></script>
+<body2 class="footer-body">
+    <div class="footer">
+        <a>© 2023 Mani Hari</a>
+        <a id="nonstatic" href='https://www.linkedin.com/in/subrahmanian-hari-270951249/'>Linkedin</a>
+        <a id="nonstatic" href='https://github.com/KujoJotaro99'>Github</a>
+        <a id="nonstatic" href='/'>Contact</a>
+    </div>
+</body2>
 </html>
